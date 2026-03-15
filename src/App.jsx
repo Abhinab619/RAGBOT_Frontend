@@ -1,6 +1,6 @@
 import { useState } from "react";
 
-const API_URL = "https://ragbot-backend-758421428048.us-central1.run.app";
+const API_URL = import.meta.env.VITE_API_URL;
 const SAMPLE_PROMPTS = [
   "Tell me about Mukhyamantri Kanya Utthan Yojana",
   "What documents are required for PM-KISAN?",
